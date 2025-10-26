@@ -1,0 +1,72 @@
+
+
+
+.greybox {
+  width: 100%;     /* กำหนดความกว้างสูงสุดของกล่อง */
+  margin: 0 auto;     /* จัดให้อยู่กลางหน้าจอ */
+  padding: 1rem 1.5rem;  /* ปรับ padding รอบๆ ข้อความ */
+  background: rgb(252, 250, 252);  /* พื้นหลัง */
+  text-align: center;      /* จัดข้อความตรงกลาง */
+}
+
+.article-content {
+  max-width: 1140px; /* เท่ากับ container ของ Bootstrap */
+  margin: 0 auto;    /* จัดให้อยู่กลางจอ */
+  padding: 1.5rem;   /* ปรับ padding ให้เท่ากับ greybox */
+  box-sizing: border-box;
+}
+
+
+/* กล่องคู่ด้านเนื้อหา */
+.info-row {
+  display: flex;         /* ทำให้แถวเป็น flex container */
+  gap: 1.5rem;           /* ช่องว่างระหว่างกล่อง */
+  flex-wrap: wrap;       /* รองรับหน้าจอเล็กให้กล่องลงบรรทัดใหม่ */
+}
+
+.info-box,
+.bene-box {
+  border: 2px solid #333;      /* กรอบสีดำ */
+  background-color: rgb(252, 246, 231);
+  border-radius: 10px;         
+  padding: 20px;               
+  min-height: 300px;           
+  box-sizing: border-box;      
+  display: flex;               
+  flex-direction: column;       /* จัดเรียงแนวตั้ง */
+  justify-content: flex-start;  /* ชิดด้านบน */
+  text-align: left;             /* เนื้อหาชิดซ้าย */
+}
+
+/* หัวข้อให้อยู่ตรงกลาง */
+.bene-box h3 {
+  text-align: center;           /* ชิดกลาง */
+  margin-bottom: 20px;          /* ระยะห่างหัวข้อกับเนื้อหา */
+}
+
+/* หัวข้อให้อยู่ตรงกลาง */
+.info-box h3 {
+  text-align: center;           /* ชิดกลาง */
+  margin-bottom: 20px;          /* ระยะห่างหัวข้อกับเนื้อหา */
+}
+
+.article-content {
+  padding-top: 20px;   /* ลดระยะขอบบน */
+  padding-bottom: 20px; /* ลดระยะขอบล่าง */
+  color: rgb(36, 5, 74);
+}
+
+.article-content h4 {
+  padding-top: 10px; /* ลดช่องว่างด้านบนของหัวข้อ */
+  margin-bottom: 15px; /* ให้ห่างกับย่อหน้าพอดี */
+}
+
+.quote-frame {
+  border: 2px solid #ccc; /* สีกรอบ */
+  border-radius: 10px;     /* มุมโค้ง */
+  background: #bdbcb4;
+  padding: 30px;           /* ระยะห่างด้านใน */
+  color:rgb(88, 81, 81);
+}
+
+
